@@ -1,0 +1,15 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+
+      <label class="item item-input">
+        <input type="text" ng-model="new_party" placeholder="Type name of party here" ng-blur="addParty(new_party)">
+      </label>  
+
+    <ion-item class="item" ng-repeat="party in parties" type="item-text-wrap">
+        <!-- <img ng-src="{{chat.face}}"> -->
+        <h2>{{party.party}}</h2>
+         <p>{{party.name}}</p> 
+        <!-- <i class="icon ion-chevron-right icon-accessory"></i> -->
+      </ion-item>
+  </ion-content>
+</ion-view>

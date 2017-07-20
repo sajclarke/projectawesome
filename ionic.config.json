@@ -1,0 +1,8 @@
+{
+  "name": "myApp",
+  "app_id": "7d2c70ba",
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*"
+  ]
+}
